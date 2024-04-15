@@ -1,0 +1,24 @@
+@font-face {
+  font-family: geist;
+  src: url("./assets/fonts/GeistVF.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --background: #060307;
+  --background2: #09040b;
+  --primary: #59047b;
+  --secondary: #211924;
+  --tertary: #1f2937;
+  --light: #faf9fb;
+  --light1: #e8b5fc;
+  --light2: #bdabc4;
+  /* Fonts */
+  --font1: "geist";
+}

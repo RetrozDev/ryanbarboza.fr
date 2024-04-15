@@ -1,0 +1,5 @@
+.Tools {
+  background-color: var(--background);
+  min-height: 100vh;
+  display: flex;
+}

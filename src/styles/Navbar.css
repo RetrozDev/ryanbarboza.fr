@@ -1,0 +1,29 @@
+.Navbar {
+  color: var(--light);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font1);
+}
+
+.Navbar img {
+  height: 100%;
+}
+
+.Navbar .Links a {
+    text-decoration: none;
+    color: var(--light);
+    font-size: 1rem;
+    transition: all .2s linear;
+}
+
+.Navbar .Links a:hover {
+    text-decoration: none;
+    color: var(--light2);
+    font-size: 1rem;
+    text-decoration: underline;
+}
