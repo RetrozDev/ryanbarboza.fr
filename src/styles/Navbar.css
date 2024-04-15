@@ -2,12 +2,11 @@
   color: var(--light);
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 100vw;
   height: 60px;
   padding: 10px;
   justify-content: space-between;
   align-items: center;
-  font-family: var(--font1);
 }
 
 .Navbar img {
