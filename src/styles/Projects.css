@@ -1,0 +1,67 @@
+.Projects {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.Projects .title h1 {
+    color: var(--light);
+    font-size: 2rem;
+}
+.Projects .title p {
+    color: var(--light2);
+    font-size: 1rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.Projects .articles {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-top: 2%;
+    justify-content: center;
+}
+.Projects .articles a{
+    text-decoration: none;
+
+}
+.Projects .articles a article{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    background-color: var(--background2);
+    border-radius: 1rem;
+    border: solid var(--tertary);
+    gap: 20px;
+    transition: all linear .2s;
+}
+
+.Projects .articles a article:hover{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    background-color: var(--secondary);
+    border-radius: 1rem;
+    border: solid var(--primary);
+    gap: 20px;
+}
+
+
+
+.Projects .articles a article h2 {
+    color: var(--light);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.Projects .articles a article h2 span{
+    color: var(--light1);
+}
+
+.Projects .articles a article p {
+    color: var(--light2);
+    font-size: 1rem;
+}

@@ -17,8 +17,28 @@
   --secondary: #211924;
   --tertary: #1f2937;
   --light: #faf9fb;
-  --light1: #e8b5fc;
+  --light1: #E8B5FC;
   --light2: #bdabc4;
   /* Fonts */
   --font1: "geist";
 }
+
+
+/* Scrollbar */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #211924 #060307;
+  }
+
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #060307;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #211924;
+    border-radius: 20px;
+  }
