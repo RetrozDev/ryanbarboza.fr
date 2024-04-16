@@ -8,8 +8,9 @@ const Navbar = ({isHome}) => {
     <nav className="Navbar">
       <img src={Logo} alt="logo" />
       <div className="Links">
+        <a href="https://github.com/RetrozDev">Github</a>
         <Link to={isHome === true ? "/tools" : "/"}>
-          <p>{(isHome ===true ? "outils" : "accueil")}</p>
+          <p>{(isHome ===true ? "Outils" : "Accueil")}</p>
           {isHome}
         </Link>
       </div>
